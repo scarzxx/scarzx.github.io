@@ -10,30 +10,71 @@ header {
   padding: 20px;
 }
 
+img {
+  width: 100px;
+}
+
 h1 {
   font-size: 2em;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 1.5em;
+  margin-bottom: 20px;
 }
 
-main {
+.features {
+  background-color: #eee;
   padding: 20px;
 }
 
-h3 {
+.features h3 {
   font-size: 1.2em;
+  margin-bottom: 10px;
 }
 
-ul {
+.features ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li {
+.features li {
   margin-bottom: 10px;
+}
+
+.download {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.download h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.download a {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.contact {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.contact h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #000;
+  text-decoration: none;
 }
 
 footer {
